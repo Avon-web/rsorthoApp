@@ -1,7 +1,17 @@
 {
   "Deploy": {
     "Project": {
-      "Workspaces": []
+      "Name": "cloud demo project",
+      "Alias": "cloud-demo-project",
+      "Id": "b2088f0e-012c-4e5b-892e-98e77962065e",
+      "Workspaces": [
+        {
+          "Id": "5ca21ffd-ea62-4985-a11e-61ec160d3cda",
+          "Name": "Live",
+          "Type": "live",
+          "Url": "https://cloud-demo-project.euwest01.umbraco.io"
+        }
+      ]
     },
     "Settings": {}
   },
