@@ -1,0 +1,92 @@
+{
+  "Name": "Icon Link Row",
+  "Alias": "iconLinkRow",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-link color-indigo",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/b0b5f1594cad4de08d642721ece1d967",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "ad2888ca-4474-4efa-aea3-56e4c8c580bb",
+      "Name": "Content",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "97f0c9df-4f4c-4782-b4a4-2ca5917aaf68",
+          "Alias": "icon",
+          "DataType": "umb://data-type/7b21df8f973a4e2d8ee1a77924d9e211",
+          "Description": "Choose the icon for this item. It must be an SVG",
+          "Mandatory": true,
+          "MandatoryMessage": "You must choose an icon",
+          "Name": "Icon",
+          "SortOrder": 10,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "aad73ce1-4ede-49e2-8eef-7ab705f6bdb3",
+          "Alias": "link",
+          "DataType": "umb://data-type/2d350d2151dd4c368eee18170985ce91",
+          "Description": "Enter your link for this item",
+          "Mandatory": true,
+          "MandatoryMessage": "You must add a link",
+          "Name": "Link",
+          "SortOrder": 20,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/17db13babbd94a44b28f986301156754",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/2d350d2151dd4c368eee18170985ce91",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/7b21df8f973a4e2d8ee1a77924d9e211",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/b0b5f1594cad4de08d642721ece1d967",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "10.2.3"
+}

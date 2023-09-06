@@ -1,0 +1,105 @@
+{
+  "Name": "Visibility Controls",
+  "Alias": "visibilityControls",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-settings color-pink",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/c2021883b34b475db5d72a1d05df34e5",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "047f36ae-a8ca-43c0-a386-372bfa7144bd",
+      "Name": "Visibility",
+      "SortOrder": 30,
+      "Type": 1,
+      "Alias": "visibility",
+      "PropertyTypes": [
+        {
+          "Key": "08b7cc39-05d0-4b97-896d-68c74c912dea",
+          "Alias": "umbracoNaviHide",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "Tick this box if you want to hide this page from the navigation and from search results",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Hide From Search",
+          "SortOrder": 10,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "09404570-096b-428b-90cb-6ac55bc47fd2",
+          "Alias": "hideFromXMLSitemap",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "Tick this if you want to hide this page from the XML sitemap",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Hide From XML Sitemap",
+          "SortOrder": 15,
+          "Validation": "",
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "35ae0d0c-361d-4a53-835c-72b7e59a166e",
+          "Alias": "hideFromTopNavigation",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Hide From Top Navigation",
+          "SortOrder": 5,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/7cebdc47a96549ecab42bc887d6b1119",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c2021883b34b475db5d72a1d05df34e5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "10.2.3"
+}

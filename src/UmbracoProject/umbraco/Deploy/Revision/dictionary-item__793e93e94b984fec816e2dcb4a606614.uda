@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/793e93e94b984fec816e2dcb4a606614",
+  "Alias": "",
+  "ItemKey": "Paging.Previous",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "793e93e9-4b98-4fec-816e-2dcb4a606614",
+      "Value": "Prev",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/793e93e94b984fec816e2dcb4a606614",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "10.2.3"
+}

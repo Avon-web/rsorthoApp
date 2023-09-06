@@ -1,0 +1,19 @@
+{
+  "Name": "[Contentment] Code Editor",
+  "Alias": "",
+  "EditorAlias": "Umbraco.Community.Contentment.CodeEditor",
+  "DatabaseType": 0,
+  "Configuration": {
+    "mode": "razor",
+    "theme": "chrome",
+    "fontSize": "small",
+    "useWrapMode": "0",
+    "minLines": 12,
+    "maxLines": 30
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/a9269bc9d93a42d3990c4a1712801253",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.3"
+}

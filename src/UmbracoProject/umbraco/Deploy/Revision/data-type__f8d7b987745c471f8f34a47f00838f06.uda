@@ -1,0 +1,28 @@
+{
+  "Name": "[BlockList] Icon List",
+  "Alias": "",
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "backgroundColor": "#1b264f",
+        "iconColor": "#ffffff",
+        "contentElementTypeKey": "17db13ba-bbd9-4a44-b28f-986301156754",
+        "settingsElementTypeKey": "84e89805-5a53-4dcf-930d-fd87c48572dd",
+        "label": "{{ link[0].name }}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useSingleBlockMode": false,
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": true
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/f8d7b987745c471f8f34a47f00838f06",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.3"
+}

@@ -1,0 +1,69 @@
+{
+  "Name": "Content Controls",
+  "Alias": "contentControls",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-settings color-pink",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/c2021883b34b475db5d72a1d05df34e5",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "f7e5767b-2760-4a51-bce1-ef9bb4f3f649",
+      "Name": "Content",
+      "SortOrder": 10,
+      "Type": 1,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "cd0a3534-e0f4-457c-8297-c88fc01db607",
+          "Alias": "contentRows",
+          "DataType": "umb://data-type/b5922818d8d843df88ed4582a24c0fa6",
+          "Description": "Add the rows of content for the page",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Content Rows",
+          "SortOrder": 16,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/b1c27e8c169242ad9701c87f12716ee7",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/b5922818d8d843df88ed4582a24c0fa6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c2021883b34b475db5d72a1d05df34e5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "10.2.3"
+}

@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/7198b952d2b643c2adfe4978b3a7a9f9",
+  "Alias": "",
+  "ItemKey": "ContactForm.Message",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "7198b952-d2b6-43c2-adfe-4978b3a7a9f9",
+      "Value": "Message",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/7198b952d2b643c2adfe4978b3a7a9f9",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "10.2.3"
+}

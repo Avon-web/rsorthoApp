@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/5292acd7095243b99744e72216e9210f",
+  "Alias": "",
+  "ItemKey": "Paging.Of",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "5292acd7-0952-43b9-9744-e72216e9210f",
+      "Value": "of",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/5292acd7095243b99744e72216e9210f",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "10.2.3"
+}

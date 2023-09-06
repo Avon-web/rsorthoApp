@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Clean.Core" Version="3.1.2" />
     <PackageReference Include="Umbraco.Cloud.Cms.PublicAccess" Version="10.0.0" />
     <PackageReference Include="Umbraco.Cloud.Identity.Cms" Version="10.0.38" />
     <PackageReference Include="Umbraco.Cloud.StorageProviders.AzureBlob" Version="10.0.0" />

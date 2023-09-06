@@ -1,0 +1,69 @@
+{
+  "Name": "[DataList] Spacing",
+  "Alias": "",
+  "EditorAlias": "Umbraco.Community.Contentment.DataList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "dataSource": [
+      {
+        "key": "Umbraco.Community.Contentment.DataEditors.UserDefinedDataListSource, Umbraco.Community.Contentment",
+        "value": {
+          "items": [
+            {
+              "icon": "icon-stop",
+              "name": "0",
+              "value": "0",
+              "description": ""
+            },
+            {
+              "icon": "icon-stop",
+              "name": "1",
+              "value": "1",
+              "description": ""
+            },
+            {
+              "icon": "icon-stop",
+              "name": "2",
+              "value": "2",
+              "description": ""
+            },
+            {
+              "icon": "icon-stop",
+              "name": "3",
+              "value": "3",
+              "description": ""
+            },
+            {
+              "icon": "icon-stop",
+              "name": "4",
+              "value": "4",
+              "description": ""
+            },
+            {
+              "icon": "icon-stop",
+              "name": "5",
+              "value": "5",
+              "description": ""
+            }
+          ]
+        }
+      }
+    ],
+    "listEditor": [
+      {
+        "key": "Umbraco.Community.Contentment.DataEditors.ButtonsDataListEditor, Umbraco.Community.Contentment",
+        "value": {
+          "defaultIcon": "icon-document",
+          "size": "m",
+          "labelStyle": "text",
+          "allowClear": "1"
+        }
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/67b28ce072744e7c8efc040435f5d97d",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.3"
+}

@@ -1,0 +1,16 @@
+{
+  "Name": "Article List",
+  "Alias": "articleList",
+  "File": "umb://template-file/articleList.cshtml",
+  "Master": null,
+  "Udi": "umb://template/26611ae115484ba5a6960cabed50057c",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/articleList.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "10.2.3"
+}

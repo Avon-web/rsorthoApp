@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/c0e753839b594272be1b7bd0b29078c0",
+  "Alias": "",
+  "ItemKey": "Navigation.SiteName",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "c0e75383-9b59-4272-be1b-7bd0b29078c0",
+      "Value": "Clean Starter Kit",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/c0e753839b594272be1b7bd0b29078c0",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "10.2.3"
+}

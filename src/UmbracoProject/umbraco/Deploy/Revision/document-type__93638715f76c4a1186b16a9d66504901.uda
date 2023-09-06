@@ -1,0 +1,49 @@
+{
+  "Name": "Code Snippet Row Settings",
+  "Alias": "codeSnippetRowSettings",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-settings color-indigo",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/1022718ed4d347bba426fbdcf127ad1d",
+  "CompositionContentTypes": [
+    "umb://document-type/02180d871eea45d993a61e38f2ee0165",
+    "umb://document-type/2e1a4fd4b695403386261a45b54e04cb"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/93638715f76c4a1186b16a9d66504901",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type-container/1022718ed4d347bba426fbdcf127ad1d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/02180d871eea45d993a61e38f2ee0165",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/2e1a4fd4b695403386261a45b54e04cb",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "10.2.3"
+}

@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/db875bf85b2248abba696682c3b7e45a",
+  "Alias": "",
+  "ItemKey": "Search.Results",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "db875bf8-5b22-48ab-ba69-6682c3b7e45a",
+      "Value": "<p>We found <strong>{0}</strong> results when searching for <strong>{1}</strong></p>",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/db875bf85b2248abba696682c3b7e45a",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "10.2.3"
+}

@@ -1,0 +1,16 @@
+{
+  "Name": "Search",
+  "Alias": "search",
+  "File": "umb://template-file/search.cshtml",
+  "Master": null,
+  "Udi": "umb://template/c83d63947bef438c929d892b42066b37",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/search.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.TemplateArtifact",
+  "__version": "10.2.3"
+}

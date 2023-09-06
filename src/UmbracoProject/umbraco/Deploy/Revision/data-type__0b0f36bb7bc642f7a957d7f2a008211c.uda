@@ -1,0 +1,45 @@
+{
+  "Name": "[DataList] Yes No Clearable",
+  "Alias": "",
+  "EditorAlias": "Umbraco.Community.Contentment.DataList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "dataSource": [
+      {
+        "key": "Umbraco.Community.Contentment.DataEditors.UserDefinedDataListSource, Umbraco.Community.Contentment",
+        "value": {
+          "items": [
+            {
+              "icon": "icon-checkbox color-green",
+              "name": "Yes",
+              "value": "true",
+              "description": ""
+            },
+            {
+              "icon": "icon-delete color-red",
+              "name": "No",
+              "value": "false",
+              "description": ""
+            }
+          ]
+        }
+      }
+    ],
+    "listEditor": [
+      {
+        "key": "Umbraco.Community.Contentment.DataEditors.ButtonsDataListEditor, Umbraco.Community.Contentment",
+        "value": {
+          "defaultIcon": "icon-document",
+          "size": "m",
+          "labelStyle": "both",
+          "allowClear": "1"
+        }
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/0b0f36bb7bc642f7a957d7f2a008211c",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.3"
+}

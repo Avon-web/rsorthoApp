@@ -1,0 +1,30 @@
+{
+  "Name": "[DataList] Category List",
+  "Alias": "",
+  "EditorAlias": "Umbraco.Community.Contentment.DataList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "dataSource": [
+      {
+        "key": "Umbraco.Community.Contentment.DataEditors.UmbracoContentDataListSource, Umbraco.Community.Contentment",
+        "value": {
+          "parentNode": "//categoryList"
+        }
+      }
+    ],
+    "listEditor": [
+      {
+        "key": "Umbraco.Community.Contentment.DataEditors.CheckboxListDataListEditor, Umbraco.Community.Contentment",
+        "value": {
+          "showDescriptions": "0",
+          "showIcons": "0"
+        }
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/becea685218c404488b31e51dcf3a4a3",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DataTypeArtifact",
+  "__version": "10.2.3"
+}

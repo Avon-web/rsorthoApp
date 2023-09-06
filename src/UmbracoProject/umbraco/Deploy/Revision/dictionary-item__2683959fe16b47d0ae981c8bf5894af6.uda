@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/2683959fe16b47d0ae981c8bf5894af6",
+  "Alias": "",
+  "ItemKey": "Paging.Page",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "2683959f-e16b-47d0-ae98-1c8bf5894af6",
+      "Value": "Page",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/2683959fe16b47d0ae981c8bf5894af6",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "10.2.3"
+}

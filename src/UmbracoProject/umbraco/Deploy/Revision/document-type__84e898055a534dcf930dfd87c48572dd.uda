@@ -1,0 +1,43 @@
+{
+  "Name": "Icon Link Row Settings",
+  "Alias": "iconLinkRowSettings",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "preventCleanup": false,
+    "keepAllVersionsNewerThanDays": null,
+    "keepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-settings color-indigo",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/1022718ed4d347bba426fbdcf127ad1d",
+  "CompositionContentTypes": [
+    "umb://document-type/02180d871eea45d993a61e38f2ee0165"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/84e898055a534dcf930dfd87c48572dd",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type-container/1022718ed4d347bba426fbdcf127ad1d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/02180d871eea45d993a61e38f2ee0165",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "10.2.3"
+}

@@ -1,0 +1,16 @@
+{
+  "Name": "Setting Models",
+  "Alias": "",
+  "ContainedObjectType": "a2cb7800-f571-4787-9638-bc48539a0efb",
+  "Parent": "umb://document-type-container/7fa2c36243834cd19d380df2cd83111e",
+  "Udi": "umb://document-type-container/5d5777c16989450badf620d9771b672f",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type-container/7fa2c36243834cd19d380df2cd83111e",
+      "Ordering": true,
+      "Mode": 1
+    }
+  ],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.ContainerArtifact",
+  "__version": "10.2.3"
+}

@@ -1,0 +1,17 @@
+{
+  "Name": "umb://dictionary-item/f55e2b7d8df445d8826c99ce2a11f537",
+  "Alias": "",
+  "ItemKey": "Navigation.MenuTitle",
+  "ParentId": null,
+  "Translations": [
+    {
+      "Key": "f55e2b7d-8df4-45d8-826c-99ce2a11f537",
+      "Value": "Menu",
+      "LanguageIsoCode": "en-US"
+    }
+  ],
+  "Udi": "umb://dictionary-item/f55e2b7d8df445d8826c99ce2a11f537",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy.Infrastructure,Umbraco.Deploy.Infrastructure.Artifacts.DictionaryItemArtifact",
+  "__version": "10.2.3"
+}
